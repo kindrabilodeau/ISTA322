@@ -1,0 +1,45 @@
+div.off{
+  width: 96px;
+ border: outset 6px red;
+ color: #ccffcc;
+ background-color: #000000;
+ border-radius: 4px;
+ padding: 6px;
+}
+ div.on{
+   width: 96px;
+  border: inset 6px darkred;
+  color: #000000;
+  background-color: #77ccff;
+  border-radius: 4px;
+  padding: 6px;
+  cursor: pointer;
+}
+
+body {
+  margin: 24px;
+  border: solid black 2px;
+  padding: 24px;
+  color: #660000;
+  background-color: #ffbbbb;
+  border-radius: 2px;
+}
+p#intro{
+  display: block;
+  background-color: #dddddd;
+}
+p#today{
+  display: block;
+  background-color: #bbbbbb;
+  visibility: collapse;
+}
+div#lists{
+  border: double 6px teal;
+  border-style: ridge;
+}
+p#turning{
+  visibility: visible;
+}
+p#major{
+  visibility: hidden;
+}
